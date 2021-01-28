@@ -1,0 +1,15 @@
+# Copyright 2020 Alexia-Elena Baluta 311CA
+
+PROGRAMAREA CALCULATOARELOR
+Tema #1 Functii, Vectori si Matrici
+
+Problema 4 - Nonogram checker
+nomogram.c
+    Pentru fiecare nonograma, se memoreaza datele in cate 3 matrici: grid, 
+    pentru codificarea propriu zisa si grid_line/grid_col pentru restrictiile
+    puse pe coloane/matrici. Se verifica linie cu linie si coloana cu coloana.
+    Se numara dimensiunea grupurilor de culori contingente si se compara cu 
+    dimensiunea grupurilor din restrictii, prin parcurgerea simultana a 
+    liniilor/coloanelor din grid si liniile din grid_line/grid_col. Daca se 
+    gaseste vreo neregularitate se iese cu codul de eroare 0. Altfel, functiile
+    de verificare returneaza 1.
